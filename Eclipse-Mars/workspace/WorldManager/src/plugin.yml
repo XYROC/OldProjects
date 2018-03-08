@@ -1,0 +1,25 @@
+name: WorldManager
+author: XIROC
+version: 0.1
+
+main: net.xiroc.worldmanager.main.MainPlugin
+commands:
+   wmimport:
+       usage: /<command>
+       description:
+
+   wmtp:
+       usage: /<command>
+       description:
+
+   myWorld:
+       usage: /<command>
+       description:
+
+   copymyWorld:
+       usage: /<command>
+       description:
+
+   worlds:
+       usage: /<command>
+       description: 

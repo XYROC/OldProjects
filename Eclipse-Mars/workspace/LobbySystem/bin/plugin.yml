@@ -1,0 +1,6 @@
+name: LobbySystem
+version: alv0.1
+author: XIROC
+
+main: me.xiroc.lobbysystem.main.MainPlugin
+commands:

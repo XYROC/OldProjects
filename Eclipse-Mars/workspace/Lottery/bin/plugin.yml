@@ -1,0 +1,13 @@
+name: Lottery
+version: 0.1
+author: XIROC
+
+main: me.xiroc.lottery.main.MainPlugin
+commands:
+   register:
+       usage: /<command>
+       description:
+   
+   lottery:
+       usage: /<command>
+       description:

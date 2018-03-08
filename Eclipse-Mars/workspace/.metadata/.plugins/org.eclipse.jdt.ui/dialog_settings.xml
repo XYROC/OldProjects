@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="JavaSE-1.8" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
+	<item value="C:\Java" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="2" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="false" key="updateTextualMatches"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1442335926130&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="1" key="rootMode"/>
+		<item value="false" key="linkWithEditor"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="540" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="700" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="700" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="540" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ServerManager0.1\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ServerManager0.1\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="Warp">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Warp\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Warp\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="NewInstaller">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\NewInstaller\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\NewInstaller\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WorldCore1.9.2">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\WorldCore1.9.2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\WorldCore1.9.2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WorldManager">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\WorldManager\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\WorldManager\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="KitPvP">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\KitPvP\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\KitPvP\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="tcpclient">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\tcpclient\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\tcpclient\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FarmWorld">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\FarmWorld\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\FarmWorld\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="BedWars">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\BedWars\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\BedWars\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SG">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\SG\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\SG\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AdminTools">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\AdminTools\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\AdminTools\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="LGHD">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\LGHD\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\LGHD\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SurvivalGames">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\SurvivalGames\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\SurvivalGames\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ServerManager0.1">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ServerManager0.1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ServerManager0.1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="KillDeath">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\KillDeath\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\KillDeath\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Permissions">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Permissions\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Permissions\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ServerStuff">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ServerStuff\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ServerStuff\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Executable">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Executable\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Executable\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Core">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Core\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Core\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Varo">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Varo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Varo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="XAAC">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\XAAC\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\XAAC\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SimpleCpu">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\SimpleCpu\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\SimpleCpu\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WarOfHeroes">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\WarOfHeroes\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\WarOfHeroes\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="TimosPlugin">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\TimosPlugin\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\TimosPlugin\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ZombieApocalypse">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ZombieApocalypse\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\ZombieApocalypse\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="LobbySystem">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\LobbySystem\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\LobbySystem\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Game">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Game\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Game\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lottery">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Lottery\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Lottery\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="EconomySystem">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\EconomySystem\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\EconomySystem\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AdminDisguiser">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\AdminDisguiser\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\AdminDisguiser\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Plugin">
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Plugin\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Benjamin\Eclipse-Mars\workspace\Plugin\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="FatJarPackageWizard">
+		<item value="C:\Users\Benjamin\Eclipse-Mars\workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
+		<item value="Server - TCPServer" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="C:\Users\Benjamin\Documents\Data\TCPServer.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
+		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Benjamin\Documents\Data\TCPServer.jar"/>
+			<item value="C:\Users\Benjamin\Documents\Data\}TCPServer.jar"/>
+			<item value="C:\Users\Benjamin\Documents\TCPServer.jar"/>
+			<item value="C:\Users\Benjamin\Documents\network.jar"/>
+			<item value="C:\Users\Benjamin\Documents\CoreNew.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Inst.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\NEWTCPClient.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\TCPClient.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Insta.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Core.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\PBar.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\Benjamin\Eclipse-Mars\workspace.xml"/>
+			<item value=".xml"/>
+		</list>
+	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="384" key="size.y"/>
+		<item value="868" key="size.x"/>
+		<item value="336" key="contextSelector.size.y"/>
+		<item value="346" key="contextSelector.size.x"/>
+	</section>
+	<section name="JarPackageWizard">
+		<item value="false" key="JarPackageWizardPage.INCLUDE_DIRECTORY_ENTRIES"/>
+		<item value="" key="JarManifestWizardPage.MANIFEST_LOCATION"/>
+		<item value="false" key="JarManifestWizardPage.SEAL_JAR"/>
+		<item value="false" key="JarPackageWizardPage.COMPRESS"/>
+		<item value="false" key="JarManifestWizardPage.REUSE_MANIFEST"/>
+		<item value="false" key="jarOptionsWizardPage.STORE_USE_SRC_FOLDERS"/>
+		<item value="true" key="jarOptionsWizardPage.EXPORT_WARNINGS"/>
+		<item value="" key="jarOptionsWizardPage.DESCRIPTION_LOCATION"/>
+		<item value="true" key="jarOptionsWizardPage.BUILD_IF_NEEDED"/>
+		<item value="false" key="JarPackageWizardPage.EXPORT_JAVA_FILES"/>
+		<item value="true" key="jarOptionsWizardPage.EXPORT_ERRORS"/>
+		<item value="true" key="JarManifestWizardPage.GENERATE_MANIFEST"/>
+		<item value="true" key="JarPackageWizardPage.EXPORT_CLASS_FILES"/>
+		<item value="false" key="JarPackageWizardPage.OVERWRITE"/>
+		<item value="false" key="jarOptionsWizardPage.SAVE_DESCRIPTION"/>
+		<item value="false" key="JarPackageWizardPage.REFACTORINGS"/>
+		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
+		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
+		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\KitPvP.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\Messenger.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\AdminTools.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\EconomySystem.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\WarOfHeroes.jar"/>
+			<item value="C:\Users\Benjamin\Documents\network.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\ServerManager0.3.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\WorldManager0.2.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\Warp.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\ServerManager0.2.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\ServerEssentials.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\WorldCore1.9.2.jar"/>
+			<item value="C:\Users\Benjamin\Documents\BugeeeCord\BungeeCordServer1.8\lobby\plugins\BungeeHack.jar"/>
+			<item value="C:\Users\Benjamin\Documents\BugeeeCord\BungeeCordServer\proxy\plugins\BungeeHack.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\CleanTestServer\plugins\KitPvP.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\CleanTestServer\plugins\ServerManager.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\ForestGame.jar"/>
+			<item value="C:\Users\Benjamin\Documents\CoreNew.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\Spigot\plugins\BW.jar"/>
+			<item value="C:\Users\Benjamin\Desktop\NEWTCPClient.jar"/>
+		</list>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

@@ -1,0 +1,62 @@
+package magic.launcher;
+
+import java.applet.Applet;
+import java.applet.AppletContext;
+import java.applet.AppletStub;
+import java.awt.Frame;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class AppletFrame
+  extends Frame
+  implements AppletStub
+{
+  private ClassLoader a = null;
+  private Applet b;
+  
+  public static void main(String[] paramArrayOfString) {}
+  
+  private AppletFrame(Applet paramApplet)
+  {
+    super("Minecraft");
+  }
+  
+  private Applet a()
+  {
+    Class localClass;
+    return (Applet)(localClass = null.loadClass("net.minecraft.client.MinecraftApplet")).newInstance();
+  }
+  
+  private static void b() {}
+  
+  public void appletResize(int paramInt1, int paramInt2) {}
+  
+  public AppletContext getAppletContext()
+  {
+    return null;
+  }
+  
+  public URL getCodeBase()
+  {
+    try
+    {
+      return new URL("http://www.minecraft.net/game/");
+    }
+    catch (MalformedURLException localMalformedURLException2)
+    {
+      MalformedURLException localMalformedURLException1;
+      (localMalformedURLException1 = localMalformedURLException2).printStackTrace();
+    }
+    return null;
+  }
+  
+  public URL getDocumentBase()
+  {
+    return null;
+  }
+  
+  public String getParameter(String paramString)
+  {
+    return null;
+  }
+}

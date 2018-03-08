@@ -1,0 +1,13 @@
+name: ServerEssentials
+version: 0.1
+author: XIROC
+
+main: me.xiroc.serverstuff.main.MainPlugin
+commands:
+   setSign:
+       usage: /<command>
+       description:
+
+   nopumpkin:
+       usage: /<command>
+       description:

@@ -1,0 +1,9 @@
+name: ZombieApocalypse
+version: 0.1
+author: XIROC
+
+main: me.xiroc.zombieapocalypse.main.MainPlugin
+commands:
+   za:
+       usage: /<command>
+       description: 

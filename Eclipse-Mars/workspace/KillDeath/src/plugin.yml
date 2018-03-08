@@ -1,0 +1,9 @@
+name: KillDeath
+version: 0.1
+author: XIROC
+
+main: me.xiroc.killdeath.main.MainPlugin
+commands:
+   stats:
+       usage: /<command>
+       description: Stats

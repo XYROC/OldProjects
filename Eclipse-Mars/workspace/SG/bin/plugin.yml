@@ -1,0 +1,21 @@
+name: SurvivalGames
+author: XIROC
+version: 0.1
+
+main: net.xiroc.survivalgames.main.SurvivalGames
+commands:
+   peace:
+       usage: /<command>
+       description:
+
+   protect:
+       usage: /<command>
+       description:
+
+   sgchest:
+       usage: /<command>
+       description:
+
+   sg:
+       usage: /<command>
+       description:

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;wrenchloader.file.WrenchFileHelper&apos; to &apos;FileHelper&apos;&#x0D;&#x0A;- Original project: &apos;WrenchLoader&apos;&#x0D;&#x0A;- Original element: &apos;wrenchloader.file.WrenchFileHelper&apos;&#x0D;&#x0A;- Renamed element: &apos;wrenchloader.file.FileHelper&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WrenchFileHelper&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;wrenchloader.file{WrenchFileHelper.java[WrenchFileHelper" matchStrategy="1" name="FileHelper" qualified="false" references="true" similarDeclarations="false" stamp="1499173613461" textual="false" version="1.0"/>
+</session>

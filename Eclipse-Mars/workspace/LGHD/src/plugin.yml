@@ -1,0 +1,9 @@
+name: Messenger
+version: 1.2
+author: XIROC
+
+main: messenger.GHD
+commands:
+   msg:
+       usage: /<command> <player> <message>
+       description: 

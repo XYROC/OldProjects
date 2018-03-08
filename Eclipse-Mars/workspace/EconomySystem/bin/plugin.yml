@@ -1,0 +1,13 @@
+name: EconomySystem
+author: XIROC
+version: 0.1
+
+main: xiroc.economy.Economy
+commands:
+   money:
+       usage: /<command> <add/remove/set> <player> <amount>
+       description:
+
+   shop:
+       usage: /<command>
+       description:

@@ -1,0 +1,28 @@
+name: AT
+version: 1.1
+author: XIROC
+
+main: me.xiroc.admintools.main.MainPlugin
+commands:
+   rnick:
+       usage: /<command>
+       description: Random nick
+   nick:
+       usage: /<command>
+       description: Nick
+   tban:
+       usage: /<command> <player> <duration> <reason>
+       description: timeban
+       aliases: [atb]
+   now:
+       usage: /<command>
+       description: time
+
+   admintools:
+       usage: /<command>
+       description:
+       aliases: [at]
+
+   unban:
+       usage: /<command> <player>
+       description: unbans a player

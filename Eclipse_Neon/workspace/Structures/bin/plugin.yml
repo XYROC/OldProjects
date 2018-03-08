@@ -1,0 +1,9 @@
+name: StructureGenerator
+version: 0.0b
+author: XIROC
+
+main: structures.plugin.Structures
+commands:
+   structures:
+       usage: /<command>
+       description:

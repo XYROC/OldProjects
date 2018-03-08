@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;me.xiroc.warofheroes.util&apos; to &apos;me.xiroc.warofheroes.utils&apos;&#x0D;&#x0A;- Original project: &apos;WarOfHeroes&apos;&#x0D;&#x0A;- Original element: &apos;WarOfHeroes/src/me.xiroc.warofheroes.util&apos;&#x0D;&#x0A;- Renamed element: &apos;WarOfHeroes/src/me.xiroc.warofheroes.utils&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;me.xiroc.warofheroes.util&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;me.xiroc.warofheroes.util" name="me.xiroc.warofheroes.utils" qualified="false" references="true" stamp="1466790319055" textual="false" version="1.0"/>
+</session>

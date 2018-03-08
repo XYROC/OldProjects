@@ -1,0 +1,36 @@
+package graphics.graphics2d;
+
+import java.io.File;
+import java.io.IOException;
+
+import javax.swing.JFrame;
+
+import graphics.graphics2d.util.Output;
+
+public class Main {
+
+	public static JFrame frame;
+
+	public static void main(String[] args) {
+		String home = System.getProperty("user.home");
+		//File log = new File(home+"//Desktop//Data//log.log");
+		/*try {
+			log.mkdirs();
+			//log.createNewFile();
+			System.setOut(new Output(log));
+		} catch (IOException e1) {
+			System.out.println("Startup failed. The program will exit.");
+			System.out.println("StackTrace:");
+			e1.printStackTrace();
+			System.exit(1);
+		}*/
+		System.out.println("Running 2D Graphics Library");
+		frame = new JFrame();
+		frame.setVisible(false);
+		frame.setLayout(null);
+		frame.setSize(600, 400);
+		frame.add(new Panel());
+		frame.setVisible(true);
+	}
+
+}

@@ -1,0 +1,55 @@
+name: Servermanager
+author: XIROC
+version: 0.3
+
+main: me.xiroc.servermanager.main.ServerManager
+commands:
+   adPrem:
+       usage: /<command> <player> <permission>
+       description: 
+
+   rmPrem:
+       usage: /<command> <player> <permission>
+       description: 
+
+   testforprm:
+       usage: /<command> <permission>
+       description:
+
+   kickplayer:
+       usage: /<command> <player> <message>
+       description:
+
+   darkstaraccount:
+       usage: /<command>
+       description:
+
+   join:
+       usage: /<command>
+       description:
+
+   servermanager:
+       usage: /<command>
+       description:
+       aliases: [sm]
+
+   report:
+       usage: /<command>
+       description: 
+
+   view:
+       usage: /<command>
+       description: 
+
+   build:
+       usage: /<command>
+       description: 
+
+permissions:
+  DarkStar.*:
+    default: false
+    children:
+      DarkStar.Premium: true
+  DarkStar.Premium:
+    description: A DarkStar Premium Permission
+    default: false

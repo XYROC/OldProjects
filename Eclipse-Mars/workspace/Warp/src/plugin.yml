@@ -1,0 +1,9 @@
+name: Warp
+version: 0.1
+author: XIROC
+
+main: me.xiroc.warp.main.MainPlugin
+commands:
+   warp:
+       usage: /<command>
+       description: Warp main command

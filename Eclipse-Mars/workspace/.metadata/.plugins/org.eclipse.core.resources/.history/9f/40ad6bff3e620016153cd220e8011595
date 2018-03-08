@@ -1,0 +1,33 @@
+package me.xiroc.kitpvp.kits;
+
+import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
+public class KitDragon {
+
+	private KitItems ki;
+	
+	public void setKit(Player p, int kitLevel){
+		switch(kitLevel){
+		case 1:
+			p.getInventory().setHelmet(Kit.addEnchantment(new ItemStack(Material.DIAMOND_HELMET), Enchantment.DURABILITY, 10));
+			p.getInventory().setChestplate(Kit.addEnchantment(new ItemStack(Material.IRON_CHESTPLATE), Enchantment.DURABILITY, 10));
+			p.getInventory().setLeggings(Kit.addEnchantment(new ItemStack(Material.DIAMOND_LEGGINGS), Enchantment.DURABILITY, 10));
+			p.getInventory().setBoots(Kit.addEnchantment(new ItemStack(Material.DIAMOND_BOOTS), Enchantment.DURABILITY, 10));
+			p.getInventory().setHeldItemSlot(0);
+			p.getInventory().addItem(Kit.setDurability(4096, Kit.addEnchantment(new ItemStack(Material.WOOD_SWORD), Enchantment.DURABILITY, 255)));
+			break;
+		default:
+			p.getInventory().setHelmet(Kit.addEnchantment(new ItemStack(Material.DIAMOND_HELMET), Enchantment.DURABILITY, 10));
+			p.getInventory().setChestplate(Kit.addEnchantment(new ItemStack(Material.IRON_CHESTPLATE), Enchantment.DURABILITY, 10));
+			p.getInventory().setLeggings(Kit.addEnchantment(new ItemStack(Material.DIAMOND_LEGGINGS), Enchantment.DURABILITY, 10));
+			p.getInventory().setBoots(Kit.addEnchantment(new ItemStack(Material.DIAMOND_BOOTS), Enchantment.DURABILITY, 10));
+			p.getInventory().setHeldItemSlot(0);
+			p.getInventory().addItem(Kit.setDurability(1, Kit.addEnchantment(new ItemStack(Material.WOOD_SWORD), Enchantment.DURABILITY, 255)));
+			break;
+		}
+	}
+	
+}

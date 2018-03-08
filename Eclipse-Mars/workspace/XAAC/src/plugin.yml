@@ -1,0 +1,5 @@
+name: XAAC
+version: 0.0b
+author: XIROC
+
+main: src.xaac.XAAC

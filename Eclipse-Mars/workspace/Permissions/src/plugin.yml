@@ -1,0 +1,7 @@
+name: Permissions
+version: 0.1
+author: XIROC
+description: Use this version to protect your World!
+
+main: me.xiroc.permissions.main.Permissions
+commands:

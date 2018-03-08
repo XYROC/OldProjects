@@ -1,0 +1,54 @@
+name: WorldCore
+author: XIROC
+version: 1.9.2
+
+main: mainpackage.MainPlugin
+commands: 
+   Kits:
+       usage: /<command>
+       description:
+
+   brdcst:
+       usage: /<command>
+       description:
+   
+   myname:
+       usage: /<command>
+       description:
+   
+   ping:
+       usage: /<command>
+       description:
+   
+   ConInf:
+       usage: /<command>
+       description:
+   
+   target:
+       usage: /<command>
+       description:
+   
+   fakeOP:
+       usage: /<command>
+       description:
+
+   universe:
+       usage: /<command>
+       description:
+
+   invsee:
+       usage: /<command>
+       description:
+
+   kitconf:
+       usage: /<command>
+       description:
+       
+   home:
+       usage: /<command>
+       description:
+
+   vote:
+       usage: /<command>
+       description:
+       

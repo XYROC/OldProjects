@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1442335852735" transient="false">
+	<site updateable="true" url="file:/C:/Users/Benjamin/.p2/pool" enabled="true" policy="MANAGED-ONLY">
+		<feature id="org.eclipse.platform" version="4.5.0.v20150603-2358" url="features/org.eclipse.platform_4.5.0.v20150603-2358/">
+		</feature>
+		<feature id="org.eclipse.mylyn.git" version="1.8.0.v20150602-0359" url="features/org.eclipse.mylyn.git_1.8.0.v20150602-0359/" plugin-identifier="org.eclipse.mylyn.versions.core">
+		</feature>
+		<feature id="org.eclipse.wb.layout.group.feature" version="1.8.0.r45x201506110824" url="features/org.eclipse.wb.layout.group.feature_1.8.0.r45x201506110824/" plugin-identifier="org.eclipse.wb.layout.group">
+		</feature>
+		<feature id="org.eclipse.mylyn.ide_feature" version="3.16.0.v20150522-2252" url="features/org.eclipse.mylyn.ide_feature_3.16.0.v20150522-2252/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" version="3.10.0.v20150512-1727" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.10.0.v20150512-1727/">
+		</feature>
+		<feature id="org.eclipse.epp.logging.aeri.feature" version="1.0.0.v20150617-0732" url="features/org.eclipse.epp.logging.aeri.feature_1.0.0.v20150617-0732/">
+		</feature>
+		<feature id="org.eclipse.oomph.p2" version="1.2.0.v20150907-0945" url="features/org.eclipse.oomph.p2_1.2.0.v20150907-0945/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.0.300.v20150430-1836" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.300.v20150430-1836/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="1.4.0.v20150603-0857" url="features/org.eclipse.e4.rcp_1.4.0.v20150603-0857/">
+		</feature>
+		<feature id="org.eclipse.aether.maven.feature" version="3.1.0.20140706-2237" url="features/org.eclipse.aether.maven.feature_3.1.0.20140706-2237/" plugin-identifier="org.eclipse.aether.maven">
+		</feature>
+		<feature id="org.eclipse.mylyn.tasks.ide" version="3.16.0.v20150525-2001" url="features/org.eclipse.mylyn.tasks.ide_3.16.0.v20150525-2001/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" version="1.0.0.v20150512-1727" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.0.0.v20150512-1727/">
+		</feature>
+		<feature id="org.eclipse.egit" version="4.0.0.201506090130-r" url="features/org.eclipse.egit_4.0.0.201506090130-r/">
+		</feature>
+		<feature id="org.eclipse.m2e.logback.feature" version="1.6.0.20150526-2032" url="features/org.eclipse.m2e.logback.feature_1.6.0.20150526-2032/" plugin-identifier="org.eclipse.m2e.logback.configuration">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.0.0.v20150512-1727" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.0.0.v20150512-1727/">
+		</feature>
+		<feature id="org.eclipse.mylyn.builds" version="1.8.0.v20150525-1955" url="features/org.eclipse.mylyn.builds_1.8.0.v20150525-1955/" plugin-identifier="org.eclipse.mylyn.builds.core">
+		</feature>
+		<feature id="org.eclipse.mylyn.team_feature" version="3.16.0.v20150522-2252" url="features/org.eclipse.mylyn.team_feature_3.16.0.v20150522-2252/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.help" version="2.1.0.v20150603-2000" url="features/org.eclipse.help_2.1.0.v20150603-2000/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.identity" version="1.8.0.v20150526-1951" url="features/org.eclipse.mylyn.commons.identity_1.8.0.v20150526-1951/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.10.0.v20150512-1727" url="features/org.eclipse.ecf.filetransfer.feature_3.10.0.v20150512-1727/">
+		</feature>
+		<feature id="org.eclipse.aether.transport.file.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.transport.file.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.aether.transport.http.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.transport.http.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.repositories.http" version="1.8.0.v20150526-1951" url="features/org.eclipse.mylyn.commons.repositories.http_1.8.0.v20150526-1951/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.mylyn_feature" version="3.16.0.v20150609-0543" url="features/org.eclipse.mylyn_feature_3.16.0.v20150609-0543/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.oomph.setup" version="1.2.0.v20150909-0745" url="features/org.eclipse.oomph.setup_1.2.0.v20150909-0745/">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext_feature" version="2.5.0.v20150522-1430" url="features/org.eclipse.mylyn.wikitext_feature_2.5.0.v20150522-1430/" plugin-identifier="org.eclipse.mylyn.wikitext.core">
+		</feature>
+		<feature id="org.eclipse.recommenders.rcp.feature" version="2.2.0.v20150609-1848" url="features/org.eclipse.recommenders.rcp.feature_2.2.0.v20150609-1848/" plugin-identifier="org.eclipse.recommenders.rcp">
+		</feature>
+		<feature id="org.eclipse.recommenders.snipmatch.rcp.feature" version="2.2.0.v20150609-1848" url="features/org.eclipse.recommenders.snipmatch.rcp.feature_2.2.0.v20150609-1848/">
+		</feature>
+		<feature id="org.eclipse.wst.common_ui.feature" version="3.7.0.v201505132009" url="features/org.eclipse.wst.common_ui.feature_3.7.0.v201505132009/">
+		</feature>
+		<feature id="org.eclipse.egit.mylyn" version="4.0.0.201506090130-r" url="features/org.eclipse.egit.mylyn_4.0.0.201506090130-r/" plugin-identifier="org.eclipse.egit">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.5.0.v20150603-2331" url="features/org.eclipse.rcp_4.5.0.v20150603-2331/">
+		</feature>
+		<feature id="org.eclipse.wb.core.java.feature" version="1.8.0.r45x201506110821" url="features/org.eclipse.wb.core.java.feature_1.8.0.r45x201506110821/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.repositories" version="1.8.0.v20150526-1951" url="features/org.eclipse.mylyn.commons.repositories_1.8.0.v20150526-1951/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.aether.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.2.100.v20150527-1706" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.100.v20150527-1706/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.notifications" version="1.8.0.v20150602-2344" url="features/org.eclipse.mylyn.commons.notifications_1.8.0.v20150602-2344/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.aether.connector.basic.feature" version="1.0.1.v20141111" url="features/org.eclipse.aether.connector.basic.feature_1.0.1.v20141111/">
+		</feature>
+		<feature id="org.eclipse.mylyn.bugzilla_feature" version="3.16.0.v20150525-2001" url="features/org.eclipse.mylyn.bugzilla_feature_3.16.0.v20150525-2001/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.mylyn.java_feature" version="3.16.0.v20150522-2252" url="features/org.eclipse.mylyn.java_feature_3.16.0.v20150522-2252/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.wst.common_core.feature" version="3.7.0.v201505132009" url="features/org.eclipse.wst.common_core.feature_3.7.0.v201505132009/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons" version="3.16.0.v20150609-0602" url="features/org.eclipse.mylyn.commons_3.16.0.v20150609-0602/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.wst.xml_userdoc.feature" version="3.6.0.v201405062147" url="features/org.eclipse.wst.xml_userdoc.feature_3.6.0.v201405062147/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_core.feature" version="3.7.0.v201502261749" url="features/org.eclipse.wst.xml_core.feature_3.7.0.v201502261749/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.2.100.v20150601-1708" url="features/org.eclipse.equinox.p2.user.ui_2.2.100.v20150601-1708/">
+		</feature>
+		<feature id="org.eclipse.mylyn.context_feature" version="3.16.0.v20150522-2252" url="features/org.eclipse.mylyn.context_feature_3.16.0.v20150522-2252/" plugin-identifier="org.eclipse.mylyn.context.core">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.11.0.v20150512-0501" url="features/org.eclipse.emf.common_2.11.0.v20150512-0501/">
+		</feature>
+		<feature id="org.eclipse.oomph.setup.core" version="1.2.0.v20150908-1622" url="features/org.eclipse.oomph.setup.core_1.2.0.v20150908-1622/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.0.0.v20150512-1727" url="features/org.eclipse.ecf.core.ssl.feature_1.0.0.v20150512-1727/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.11.0.v20150603-2000" url="features/org.eclipse.jdt_3.11.0.v20150603-2000/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.3.100.v20150527-1706" url="features/org.eclipse.equinox.p2.core.feature_1.3.100.v20150527-1706/">
+		</feature>
+		<feature id="org.eclipse.wb.core.ui.feature" version="1.8.0.r45x201506110822" url="features/org.eclipse.wb.core.ui.feature_1.8.0.r45x201506110822/" plugin-identifier="org.eclipse.wb.core.ui">
+		</feature>
+		<feature id="org.eclipse.wb.swing.feature" version="1.8.0.r45x201506110826" url="features/org.eclipse.wb.swing.feature_1.8.0.r45x201506110826/" plugin-identifier="org.eclipse.wb.swing">
+		</feature>
+		<feature id="org.eclipse.epp.package.java.feature" version="4.5.0.20150621-1200" url="features/org.eclipse.epp.package.java.feature_4.5.0.20150621-1200/" plugin-identifier="org.eclipse.epp.package.java">
+		</feature>
+		<feature id="org.eclipse.mylyn.hudson" version="1.8.0.v20150525-1955" url="features/org.eclipse.mylyn.hudson_1.8.0.v20150525-1955/" plugin-identifier="org.eclipse.mylyn.builds.core">
+		</feature>
+		<feature id="org.eclipse.wst.xml_ui.feature" version="3.7.0.v201505141512" url="features/org.eclipse.wst.xml_ui.feature_3.7.0.v201505141512/" plugin-identifier="org.eclipse.wst.xml.ui">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.2.100.v20150601-1708" url="features/org.eclipse.equinox.p2.extras.feature_1.2.100.v20150601-1708/">
+		</feature>
+		<feature id="org.eclipse.epp.package.common.feature" version="4.5.0.20150621-1200" url="features/org.eclipse.epp.package.common.feature_4.5.0.20150621-1200/">
+		</feature>
+		<feature id="org.eclipse.mylyn.monitor" version="3.16.0.v20150526-1951" url="features/org.eclipse.mylyn.monitor_3.16.0.v20150526-1951/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" version="1.4.0.v20150618-1659" url="features/org.eclipse.epp.mpc_1.4.0.v20150618-1659/" plugin-identifier="org.eclipse.epp.mpc.ui">
+		</feature>
+		<feature id="org.eclipse.wb.core.feature" version="1.8.0.r45x201506110820" url="features/org.eclipse.wb.core.feature_1.8.0.r45x201506110820/" plugin-identifier="org.eclipse.wb.core">
+		</feature>
+		<feature id="org.eclipse.jgit" version="4.0.0.201506090130-r" url="features/org.eclipse.jgit_4.0.0.201506090130-r/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.1.0.v20150512-1727" url="features/org.eclipse.ecf.core.feature_1.1.0.v20150512-1727/">
+		</feature>
+		<feature id="org.eclipse.mylyn.versions" version="1.8.0.v20150525-1956" url="features/org.eclipse.mylyn.versions_1.8.0.v20150525-1956/" plugin-identifier="org.eclipse.mylyn.versions.core">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.11.0.v20150512-0501" url="features/org.eclipse.emf.ecore_2.11.0.v20150512-0501/">
+		</feature>
+		<feature id="org.eclipse.m2e.feature" version="1.6.0.20150526-2032" url="features/org.eclipse.m2e.feature_1.6.0.20150526-2032/" plugin-identifier="org.eclipse.m2e.core">
+		</feature>
+		<feature id="org.eclipse.recommenders.mylyn.rcp.feature" version="2.2.0.v20150609-1848" url="features/org.eclipse.recommenders.mylyn.rcp.feature_2.2.0.v20150609-1848/">
+		</feature>
+		<feature id="org.eclipse.mylyn.discovery" version="3.16.0.v20150602-1735" url="features/org.eclipse.mylyn.discovery_3.16.0.v20150602-1735/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+	</site>
+</config>

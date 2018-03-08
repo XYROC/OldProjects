@@ -1,0 +1,434 @@
+package net.xiroc.survivalgames.events;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.Sound;
+import org.bukkit.block.Block;
+import org.bukkit.block.Sign;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
+import org.bukkit.event.inventory.InventoryType;
+import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import net.xiroc.survivalgames.main.SurvivalGames;
+
+public class InteractEvent implements Listener {
+
+	private SurvivalGames plugin;
+	private int time;
+	private int countdown;
+	private float xp;
+
+	public InteractEvent(SurvivalGames plugin) {
+		this.plugin = plugin;
+		this.plugin.getServer().getPluginManager().registerEvents(this, plugin);
+		System.out.println("[SurvivalGames] Loaded InteractEvent");
+	}
+
+	@EventHandler
+	public void onInteract(PlayerInteractEvent e) {
+		Player p = e.getPlayer();
+		if (e.getAction() == Action.RIGHT_CLICK_BLOCK) {
+			Block b = e.getClickedBlock();
+			if (b.getType() == Material.ANVIL) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+
+			}
+			if (b.getType() == Material.FURNACE) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.BURNING_FURNACE) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.ENDER_CHEST) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.ENCHANTMENT_TABLE) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.BREWING_STAND) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if(b.getType() == Material.CHEST){
+				e.setCancelled(true);
+			}
+			if (b.getType() == Material.HOPPER) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.DROPPER) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.WORKBENCH) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.DISPENSER) {
+				if (this.plugin.blockchest) {
+					e.setCancelled(true);
+				} else {
+					e.setCancelled(false);
+				}
+			}
+			if (b.getType() == Material.WALL_SIGN || b.getType() == Material.SIGN_POST) {
+				Sign s = (Sign) b.getState();
+				if (s.getLine(0).equals("§7[§6SG§7]")) {
+					String world = s.getLine(1);
+					File theworld = new File("plugins//SurvivalGames//Worlds", world + ".yml");
+					FileConfiguration cfg = YamlConfiguration.loadConfiguration(theworld);
+					String lobbyworld = cfg.getString("World.Lobby.World");
+					int in = Integer.valueOf(s.getLine(3));
+					int max = cfg.getInt("World.Size");
+					if (in == max) {
+						p.sendMessage(this.plugin.prefix + ChatColor.RED + "Dieses Spiel ist bereits voll!");
+					} else {
+						if (!cfg.contains("World.Lobby.x") || !cfg.contains("World.Lobby.y")
+								|| !cfg.contains("World.Lobby.z")) {
+
+						}
+						this.plugin.ingame.add(p);
+						int newin = in + 1;
+						s.setLine(3, "" + newin);
+						s.update();
+
+						int countdownstart = cfg.getInt("Game.Countdownstart");
+
+						if (newin == countdownstart) {
+							time = 60;
+							xp = 1;
+							countdown = Bukkit.getScheduler().scheduleSyncRepeatingTask(plugin, new Runnable() {
+								@Override
+								public void run() {
+									if (time == 60) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 50) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 40) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 30) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 20) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 10) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 5) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 4) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 3) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 2) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunden!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if (time == 1) {
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt in "+ChatColor.YELLOW+time+ChatColor.GREEN+" Sekunde!");
+										p.playSound(p.getLocation(), Sound.NOTE_PIANO, 10, 10);
+									}
+									if(time == 0){
+										p.sendMessage(plugin.prefix+ChatColor.GREEN+"Das Spiel beginnt ");
+										p.playSound(p.getLocation(), Sound.NOTE_PLING, 10, 10);
+										Bukkit.getScheduler().cancelTask(countdown);
+										int i = 1;
+										for(Player pl : plugin.ingame){
+											double x = cfg.getDouble("World.Spawn"+i+".x");
+											double y = cfg.getDouble("World.Spawn"+i+".y");
+											double z = cfg.getDouble("World.Spawn"+i+".z");
+										}
+									}
+									time--;
+									xp = xp - 0.0166F;
+
+								}
+							}, 0, 20);
+						}
+
+						ItemStack lobby = new ItemStack(Material.GLOWSTONE_DUST);
+						ItemMeta lobbyMeta = lobby.getItemMeta();
+						lobbyMeta.setDisplayName("§6Lobby");
+						lobby.setItemMeta(lobbyMeta);
+
+						ItemStack start = new ItemStack(Material.DIAMOND);
+						ItemMeta startMeta = start.getItemMeta();
+						startMeta.setDisplayName("§6S§at§6a§ar§6t");
+						start.setItemMeta(startMeta);
+						
+						double x = cfg.getDouble("World.Lobby.x");
+						double y = cfg.getDouble("World.Lobby.y");
+						double z = cfg.getDouble("World.Lobby.z");
+
+						Location loc = new Location(Bukkit.getWorld(lobbyworld), x, y, z);
+
+						p.getInventory().clear();
+
+						p.getInventory().setItem(8, lobby);
+						if (p.isOp()) {
+							p.getInventory().setItem(0, start);
+						}
+						p.teleport(loc);
+
+					}
+				}
+			}
+			if (b.getType() == Material.OBSIDIAN) {
+
+				if (this.plugin.obsidianchest) {
+
+					if (this.plugin.sgchest.containsKey(e.getClickedBlock().getLocation())) {
+						p.openInventory((Inventory) this.plugin.sgchest.get(e.getClickedBlock().getLocation()));
+					} else {
+						
+						e.setCancelled(true);
+						p.playSound(p.getLocation(), Sound.LEVEL_UP, 10, 10);
+
+						Random rnd = new Random();
+						int n = 1;
+						n = rnd.nextInt(6);
+						Inventory inv = Bukkit.createInventory(null, InventoryType.CHEST);
+						List<ItemStack> items = new ArrayList<ItemStack>();
+
+						//items.add(new ItemStack(Material.DIAMOND));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.WOOD_SWORD));
+						items.add(new ItemStack(Material.LEATHER_CHESTPLATE));
+						items.add(new ItemStack(Material.LEATHER_CHESTPLATE));
+						items.add(new ItemStack(Material.LEATHER_CHESTPLATE));
+						items.add(new ItemStack(Material.COOKED_BEEF, 5));
+						items.add(new ItemStack(Material.COOKED_BEEF, 5));
+						items.add(new ItemStack(Material.COOKED_BEEF, 2));
+						items.add(new ItemStack(Material.COOKED_BEEF, 2));
+						items.add(new ItemStack(Material.COOKED_BEEF, 2));
+						items.add(new ItemStack(Material.COOKED_BEEF, 2));
+						items.add(new ItemStack(Material.COOKED_BEEF, 2));
+						items.add(new ItemStack(Material.COOKED_BEEF, 2));
+						items.add(new ItemStack(Material.SEEDS));
+						items.add(new ItemStack(Material.GOLD_HOE));
+						items.add(new ItemStack(Material.GOLD_HOE));
+						items.add(new ItemStack(Material.IRON_SWORD));
+						items.add(new ItemStack(Material.IRON_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_SWORD));
+						items.add(new ItemStack(Material.ARROW, 5));
+						items.add(new ItemStack(Material.ARROW, 2));
+						items.add(new ItemStack(Material.GOLDEN_APPLE));
+						items.add(new ItemStack(Material.GOLD_SPADE));
+						items.add(new ItemStack(Material.GOLD_SPADE));
+						items.add(new ItemStack(Material.GOLD_SPADE));
+						items.add(new ItemStack(Material.GOLDEN_CARROT, 1));
+						items.add(new ItemStack(Material.GOLDEN_CARROT, 1));
+						items.add(new ItemStack(Material.BOW));
+						items.add(new ItemStack(Material.BOW));
+						items.add(new ItemStack(Material.BOW));
+						items.add(new ItemStack(Material.BOW));
+						items.add(new ItemStack(Material.GOLD_AXE));
+						items.add(new ItemStack(Material.GOLD_AXE));
+						items.add(new ItemStack(Material.GOLD_AXE));
+						items.add(new ItemStack(Material.GOLD_AXE));
+						items.add(new ItemStack(Material.CHAINMAIL_LEGGINGS));
+						items.add(new ItemStack(Material.CHAINMAIL_LEGGINGS));
+						items.add(new ItemStack(Material.CHAINMAIL_LEGGINGS));
+						items.add(new ItemStack(Material.GOLD_BOOTS));
+						items.add(new ItemStack(Material.GOLD_BOOTS));
+						items.add(new ItemStack(Material.GOLD_BOOTS));
+						items.add(new ItemStack(Material.CHAINMAIL_HELMET));
+						items.add(new ItemStack(Material.CHAINMAIL_HELMET));
+						items.add(new ItemStack(Material.CHAINMAIL_HELMET));
+						items.add(new ItemStack(Material.CHAINMAIL_CHESTPLATE));
+						items.add(new ItemStack(Material.CHAINMAIL_CHESTPLATE));
+						items.add(new ItemStack(Material.CHAINMAIL_CHESTPLATE));
+						items.add(new ItemStack(Material.STICK, 4));
+						items.add(new ItemStack(Material.STICK, 2));
+						items.add(new ItemStack(Material.STICK));
+						items.add(new ItemStack(Material.IRON_LEGGINGS));
+						items.add(new ItemStack(Material.RAW_BEEF, 10));
+						items.add(new ItemStack(Material.RAW_BEEF, 10));
+						items.add(new ItemStack(Material.RAW_BEEF, 10));
+						items.add(new ItemStack(Material.RAW_BEEF, 10));
+						items.add(new ItemStack(Material.DIAMOND_CHESTPLATE));
+						items.add(new ItemStack(Material.FLINT_AND_STEEL));
+						items.add(new ItemStack(Material.FLINT_AND_STEEL));
+						items.add(new ItemStack(Material.IRON_BOOTS));
+						items.add(new ItemStack(Material.POTATO, 5));
+						items.add(new ItemStack(Material.POTATO, 5));
+						items.add(new ItemStack(Material.POTATO, 5));
+						items.add(new ItemStack(Material.CARROT, 7));
+						items.add(new ItemStack(Material.DIAMOND_HELMET));
+						items.add(new ItemStack(Material.DIAMOND_HOE));
+						items.add(new ItemStack(Material.IRON_HOE));
+						//items.add(new ItemStack(Material.DIAMOND, 2));
+						items.add(new ItemStack(Material.DIAMOND_SWORD));
+						items.add(new ItemStack(Material.STONE_SWORD));
+						items.add(new ItemStack(Material.STONE_SWORD));
+						items.add(new ItemStack(Material.STONE_SWORD));
+						items.add(new ItemStack(Material.STONE_SWORD));
+						items.add(new ItemStack(Material.STONE_SWORD));
+						items.add(new ItemStack(Material.STONE_SWORD));
+						items.add(new ItemStack(Material.STONE_HOE));
+						items.add(new ItemStack(Material.STONE_HOE));
+						items.add(new ItemStack(Material.STONE_HOE));
+						//items.add(new ItemStack(Material.STONE_PICKAXE));
+						items.add(new ItemStack(Material.STONE_AXE));
+						//items.add(new ItemStack(Material.REDSTONE, 3));
+						//items.add(new ItemStack(Material.REDSTONE, 5));
+						//items.add(new ItemStack(Material.DIRT, 7));
+						//items.add(new ItemStack(Material.SAND, 4));
+						//items.add(new ItemStack(Material.SANDSTONE, 6));
+						//items.add(new ItemStack(Material.COBBLESTONE, 2));
+						items.add(new ItemStack(Material.DIAMOND_PICKAXE));
+						items.add(new ItemStack(Material.GOLD_PICKAXE));
+						items.add(new ItemStack(Material.APPLE, 8));
+						items.add(new ItemStack(Material.APPLE, 8));
+						items.add(new ItemStack(Material.APPLE, 8));
+						items.add(new ItemStack(Material.BAKED_POTATO, 6));
+						items.add(new ItemStack(Material.BAKED_POTATO, 6));
+						items.add(new ItemStack(Material.BAKED_POTATO, 6));
+						items.add(new ItemStack(Material.RAW_CHICKEN));
+						items.add(new ItemStack(Material.RAW_CHICKEN));
+						items.add(new ItemStack(Material.RAW_CHICKEN));
+						items.add(new ItemStack(Material.COOKED_CHICKEN));
+						items.add(new ItemStack(Material.COOKED_CHICKEN));
+						items.add(new ItemStack(Material.COOKED_CHICKEN));
+						items.add(new ItemStack(Material.ENDER_PEARL));
+						items.add(new ItemStack(Material.ENDER_PEARL));
+						items.add(new ItemStack(Material.ENDER_PEARL));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+						items.add(new ItemStack(Material.GOLD_CHESTPLATE));
+
+						while (n != 0) {
+							n--;
+							Random rnd2 = new Random();
+							Random rnd3 = new Random();
+
+							int n2 = rnd2.nextInt(items.size());
+							int n3 = rnd3.nextInt(27);
+
+							inv.setItem(n3, (ItemStack) items.get(n2));
+
+						}
+						this.plugin.sgchest.put(e.getClickedBlock().getLocation(), inv);
+						p.openInventory(inv);
+						return;
+
+					}
+					return;
+				} else {
+					e.setCancelled(true);
+				}
+			}
+
+		}
+		if (p.getItemInHand().getType() == Material.DIAMOND) {
+			if (p.getItemInHand().getItemMeta().getDisplayName().equals("§6S§at§6a§ar§6t")) {
+				if(Bukkit.getScheduler().isCurrentlyRunning(countdown)){
+					if(this.time > 10){
+					this.time = 10;
+					this.xp = 0.167F;
+				}
+				}else{
+					p.sendMessage(plugin.prefix+ChatColor.RED+"Der Countdown läuft nicht!");
+				}
+				
+			}
+		}
+		if(p.getItemInHand().getType() == Material.GLOWSTONE_DUST){
+			if(p.getItemInHand().getItemMeta().getDisplayName().equals("§6Lobby")){
+				File theworld = new File("plugins//SurvivalGames//Worlds", "LobbyLeave" + ".yml");
+				if(theworld.exists()){
+					FileConfiguration cfg = YamlConfiguration.loadConfiguration(theworld);
+				
+				double x = cfg.getDouble("Game.Lobbyleavepoint.x");
+				double y = cfg.getDouble("Game.Lobbyleavepoint.y");
+				double z = cfg.getDouble("Game.Lobbyleavepoint.z");
+				
+				String world = cfg.getString("Game.Lobbyleavepoint.world");
+				
+				Location l = new Location(Bukkit.getWorld(world), x, y, z);
+				this.plugin.ingame.remove(p);
+				p.teleport(l);
+				}else{
+					p.sendMessage(plugin.prefix+ChatColor.RED+"Lobby nicht gefunden!");
+				}
+				
+			}
+		}
+
+	}
+}

@@ -1,0 +1,5 @@
+name: FarmWorld
+version: 0.1
+author: XIROC
+
+main: me.xiroc.farmworld.main.MainPlugin

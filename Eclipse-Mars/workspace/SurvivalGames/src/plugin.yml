@@ -1,0 +1,9 @@
+name: SurvivalGames
+author: XIROC
+version: 0.1
+
+main: main.SurvivalGames
+commands: 
+   sg:
+       usage: /<command> <operation>
+       description: SurvivalGames MainCommand

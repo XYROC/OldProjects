@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;me.xiroc.datautils&apos; to &apos;src.datautils&apos;&#x0D;&#x0A;- Original project: &apos;DataUtils&apos;&#x0D;&#x0A;- Original element: &apos;DataUtils/src/me.xiroc.datautils&apos;&#x0D;&#x0A;- Renamed element: &apos;DataUtils/src/src.datautils&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;me.xiroc.datautils&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;me.xiroc.datautils" name="src.datautils" qualified="false" references="true" stamp="1469123877499" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+name: WarOfHeroes
+version: 0.1
+author: XIROC
+
+main: me.xiroc.warofheroes.main.Main
+commands:
+   warofheroes:
+       usage: /<command>
+       aliases: [woh]
+       description:

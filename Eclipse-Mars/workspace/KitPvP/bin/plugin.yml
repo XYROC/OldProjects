@@ -1,0 +1,25 @@
+name: KitPvP
+version: 0.2.3
+author: XIROC
+
+main: me.xiroc.kitpvp.main.MainPlugin
+commands:
+   kitchest:
+       usage: /<command>
+       description:
+
+   coins:
+       usage: /<command>
+       description:
+
+   food:
+       usage: /<command>
+       description:
+
+   powerups:
+       usage: /<command>
+       description:
+
+   kitpvp:
+       usage: /<command>
+       description:

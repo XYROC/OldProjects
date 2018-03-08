@@ -1,0 +1,9 @@
+name: AD
+version: 0.1
+author: XIROC
+main: me.xiroc.admindisguiser.main.MainPlugin
+commands:
+   admindisguiser:
+       usage: /<command>
+       descirpiton: 
+       aliases: [ad]
